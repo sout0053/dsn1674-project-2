@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+div {
+  width: 320px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.dragon {
+  margin: 0;
+  background-color: yellow;
+}
+
+.goat {
+  margin: 0;
+  background-color: black;
+}
+
+.goat-header, .goat-text {
+  color: white;
+}
+
+.rooster {
+  margin: 0;
+  background-color: red;
+}
+
+.rooster-header, .rooster-text {
+  color: white;
+}
+
+.ox {
+  background-color: yellow;
+}
