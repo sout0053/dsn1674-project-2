@@ -7,39 +7,75 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 img {
-  width: 100%;
+  width: 45%;
+}
+
+header {
+  color: white;
+  background-color: #e7001d;
 }
 
 div {
-  width: 320px;
+  width: 100%;
   position: relative;
-  margin: 0 auto;
+}
+
+h2 {
+  margin: 0;
+  padding: 1em;
+}
+
+p {
+  padding: 1em;
+  margin: 0;
+}
+
+.medallion {
+  width:20%
+}
+
+.zodiac-header, .zodiac-header-white {
+  text-align: center;
+}
+
+.zodiac-header-white {
+  color: white;
+}
+
+.banner {
+  width: 100%;
 }
 
 .dragon {
   margin: 0;
-  background-color: yellow;
+  background-color: #e4c22a;
+}
+
+.text  {
+  text-align: center;
+}
+
+.white-text {
+  text-align: center;
+  color: white;
 }
 
 .goat {
   margin: 0;
-  background-color: black;
-}
-
-.goat-header, .goat-text {
-  color: white;
+  background-color: #222222;
 }
 
 .rooster {
   margin: 0;
-  background-color: red;
-}
-
-.rooster-header, .rooster-text {
-  color: white;
+  background-color: #bc0017;
 }
 
 .ox {
-  background-color: yellow;
+  margin: 0;
+  background-color: #e4c22a;
 }
