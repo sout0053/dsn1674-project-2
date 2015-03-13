@@ -31,8 +31,17 @@ h2 {
 }
 
 p {
+  font-size: .8rem;
   padding: 1em;
   margin: 0;
+}
+
+footer {
+  font-size: .8rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1em;
 }
 
 .medallion {
@@ -57,10 +66,13 @@ p {
 }
 
 .text  {
+  font-size: .8rem;
   text-align: center;
+  font-style: italic;
 }
 
 .white-text {
+  font-size: .8rem;
   text-align: center;
   color: white;
 }
