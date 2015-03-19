@@ -123,6 +123,12 @@ font-size: 4em;
   padding-left: 0;
 }
 
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .zodiac-header, .zodiac-header-white {
   text-align: center;
 }
