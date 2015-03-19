@@ -7,6 +7,26 @@ html {
   box-sizing: inherit;
 }
 
+nav {
+  background-color: #222222;
+}
+
+li {
+  border: 1px solid black;
+  padding: .5em;
+  float: left;
+  width: 50%;
+  background-color: #222222;
+}
+
+ul {
+  background-color: #222222;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
 body {
   margin: 0;
 }
@@ -30,8 +50,8 @@ div {
 
 h1 {
   text-shadow: 2px 2px black;
-  position: absolute;
-  bottom: 9.5em;
+  position: relative;
+  bottom: 2em;
   margin: 0;
   color: white;
   text-align: center;
@@ -45,33 +65,66 @@ h2 {
 
 p {
   font-size: .8rem;
-  padding: 1em;
+  padding: .5em;
   margin: 0;
 }
 
 footer {
   font-size: .8rem;
   text-align: center;
-  background-color: black;
+  background-color: #222222;
   color: white;
   padding: 1em;
 }
 
-.medallion {
-  padding-top: 1em;
-  margin: 0;
-  float: right;
-  width: 85%
+nav a {
+  width: 100%;
+}
+
+header{
+  background-image: url("../images/medallion.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 6em;
 
 }
 
-.top {
+/*.medallion {
+  padding-top: 1em;
+  margin: 0;
   text-align: center;
+  width: 100%
+}*/
+
+
+
+header p{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+header .symbol{
+  font-size: 3em;
+  padding-top: .5em;
+  padding-bottom: 0;
+}
+
+/*p.top{
+font-size: 4em;
+}*/
+
+.header {
+  text-shadow: 2px 2px black;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  padding-bottom: 1.5em;
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .zodiac-header, .zodiac-header-white {
   text-align: center;
-  font-style: bold;
 }
 
 .zodiac-header-white {
