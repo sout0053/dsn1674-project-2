@@ -12,17 +12,30 @@ body {
 }
 
 img {
+  /* float images */
   width: 45%;
 }
 
 header {
   color: white;
   background-color: #e7001d;
+  position: relative;
+  overflow: hidden;
 }
 
 div {
   width: 100%;
   position: relative;
+}
+
+h1 {
+  text-shadow: 2px 2px black;
+  position: absolute;
+  bottom: 9.5em;
+  margin: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
 }
 
 h2 {
@@ -45,11 +58,20 @@ footer {
 }
 
 .medallion {
-  width:20%
+  padding-top: 1em;
+  margin: 0;
+  float: right;
+  width: 85%
+
+}
+
+.top {
+  text-align: center;
 }
 
 .zodiac-header, .zodiac-header-white {
   text-align: center;
+  font-style: bold;
 }
 
 .zodiac-header-white {
@@ -58,6 +80,14 @@ footer {
 
 .banner {
   width: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 .dragon {
