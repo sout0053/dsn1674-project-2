@@ -50,6 +50,7 @@ div {
 
 .headline-banner {
   position: relative;
+  clear: both;
 }
 
 h1 {
