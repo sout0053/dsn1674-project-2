@@ -50,8 +50,7 @@ div {
 
 h1 {
   text-shadow: 2px 2px black;
-  position: relative;
-  bottom: 2em;
+  position: absolute;
   margin: 0;
   color: white;
   text-align: center;
